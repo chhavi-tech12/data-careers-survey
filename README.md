@@ -2,23 +2,27 @@
 
 An interactive Power BI dashboard analyzing survey data to understand the data-career landscape and evaluate the case for introducing a Data Analytics department at a university.
 
-## 📊 Dashboard Preview
+## 📸 Project Preview
 
 ### Market Value
-![Market Value](dashboard/Market_value.png)
+
+![Market Value](screenshots/market-value.png)
 
 ### Future Outcome
-![Future Outcome](dashboard/Future_outcomes.png)
+
+![Future Outcome](screenshots/future-outcome.png)
 
 ### Skills & Opportunities
-![Skills & Opportunities](dashboard/Skills_and_opportunities.png)
+
+![Skills & Opportunities](screenshots/skills-opportunities.png)
 
 ### Growth & Stability
-![Growth & Stability](dashboard/Growth_and_stability.png)
+
+![Growth & Stability](screenshots/growth-stability.png)
 
 ### Insights
-![Insights](dashboard/Insights.png)
 
+![Insights](screenshots/insights.png)
 ## 🎯 Project Objective
 
 A university conducted a survey to understand career opportunities, skills, and expectations within the data field.
@@ -66,7 +70,7 @@ The analysis looks beyond salary alone and considers accessibility, skills, care
 - **DAX** — Measures and calculated metrics
 - **Data Visualization** — Interactive dashboard and storytelling
 
-## 📁 Files
+## 📁 Project Files
 
-- `Data_Careers_Survey.pbix` — Interactive Power BI dashboard
-- `dashboard/` — Dashboard screenshots for quick preview
+- [Data_Careers_Survey.pbix](Data_Careers_Survey.pbix) — Interactive Power BI report
+- [Screenshots](screenshots/) — Project preview images
