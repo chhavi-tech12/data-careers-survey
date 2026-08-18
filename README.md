@@ -16,8 +16,8 @@ An interactive Power BI dashboard analyzing survey data to understand the data-c
 ### Growth & Stability
 ![Growth & Stability](dashboard/Growth_and_stability.png)
 
-### Insights & Recommendations
-![Insights & Recommendations](dashboard/Insights.png)
+### Insights
+![Insights](dashboard/Insights.png)
 
 ## 🎯 Project Objective
 
