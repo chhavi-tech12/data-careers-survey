@@ -146,6 +146,8 @@ A potential Data Analytics program should combine:
 ---
 
 ## 📁 Files
+> **Note:** GitHub can't preview `.pbix` files inline — download it and open in Power BI Desktop to view the report.
+
 
 - [Data_Careers_Survey.pbix](./Data_Careers_Survey.pbix) — Power BI project file
 - [Market_value.png](./Market_value.png) — Market Value screenshot
