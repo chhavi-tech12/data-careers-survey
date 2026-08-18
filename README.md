@@ -25,7 +25,7 @@ An interactive Power BI project analyzing survey data on the data-career landsca
 
 ## 🎯 Project Objective
 
-A university surveyed **630 respondents** across **86 diversities** to understand career opportunities, skills, expectations, and preferences within the data field.
+A university surveyed **630 respondents** across **86 countries** to understand career opportunities, skills, expectations, and preferences within the data field.
 
 The objective was to transform those responses into insights that could help the university evaluate the potential value of launching a Data Analytics program — and to give students and career switchers a clearer, evidence-based view of the field.
 
