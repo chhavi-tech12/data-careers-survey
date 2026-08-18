@@ -1,49 +1,65 @@
 # Data Careers Survey
 
-An interactive Power BI dashboard analyzing career paths, salaries, skills, accessibility, and growth opportunities across the data field.
+An interactive Power BI dashboard built to analyze survey responses and assess whether a university has a strong case for introducing a Data Analytics department.
 
-# Data Careers Survey
+## Dashboard
 
-📊 Interactive Power BI dashboard exploring career paths, skills, salaries, and growth opportunities across the data field.
+### Market Value
+![Market Value](Market_value.png)
 
-## 📸 Dashboard Preview
+### Future Outcome
+![Future Outcome](Future_outcomes.png)
 
-[<img width="1437" height="805" alt="Insights" src="https://github.com/user-attachments/assets/9ab8f678-f781-4094-8545-6b72f4123626" />]
+### Skills & Opportunities
+![Skills & Opportunities](Skills%20_and%20_opportunities.png)
 
+### Growth & Stability
+![Growth & Stability](Growth_and_stability.png)
+
+### Insights
+![Insights](Insights.png)
 
 ## Overview
 
-This project analyzes survey data collected by a university to understand career opportunities in the data field and evaluate whether there is a strong case for introducing a Data Analytics department.
+The project explores the data career landscape from the perspective of students and professionals — looking at career paths, salaries, skills, accessibility, growth, and job satisfaction.
 
-The analysis looks beyond a single role and compares different data careers across factors such as salary, accessibility, career growth, skills, satisfaction, and stability.
+The analysis turns survey responses into insights that can help a university understand what students may need to prepare for careers in the data field.
 
-The goal was to turn survey responses into practical insights that can help the university understand what skills and career pathways students could be prepared for.
+## Business Questions
+
+- What does the current data career landscape look like?
+- Which roles offer stronger salary and career opportunities?
+- What skills are most relevant across industries and roles?
+- How accessible is the data field, especially for career switchers?
+- Which roles offer stronger growth, satisfaction, and work-life balance?
+- What should students consider when choosing a data career path?
+
+
+
+## Key Insights
+
+- Data Analyst emerges as a practical entry point into the data field.
+- Data Scientist shows the strongest salary potential among the surveyed roles.
+- Python appears as a widely used programming skill across roles and industries.
+- Career quality varies across roles when salary, satisfaction, growth, and work-life balance are considered together.
+- A significant share of respondents are career switchers, highlighting the importance of accessible learning pathways.
+
+## Recommendations
+
+- Build the curriculum around practical foundations such as SQL, Python, analytics, and data visualization.
+- Provide accessible pathways for students and career switchers entering the data field.
+- Introduce exposure to multiple data roles before students specialize.
+- Focus on both technical skills and career-readiness skills to support long-term growth.
 
 ## Tools Used
 
-- Microsoft Power BI
+- Power BI
 - Power Query
 - DAX
 - Data Cleaning & Transformation
 - Data Visualization
 
-## Key Insights
+## Files
 
-- Data Analyst emerges as a practical entry-level pathway within the surveyed data roles, particularly for freshers.
-- Data Scientist shows the strongest salary potential among the roles analyzed.
-- Technical skills such as Python and SQL are transferable across multiple data careers.
-- Career choice should be evaluated using multiple factors, including salary, accessibility, growth, satisfaction, and stability.
-- The findings indicate opportunities for both entry-level pathways and long-term specialization within the data field.
-
-## Recommendations
-
-- Build strong foundations in SQL, Python, data visualization, and analytical thinking.
-- Position Data Analyst roles as an accessible starting point before moving into specialized data careers.
-- Design the curriculum around transferable skills that support multiple career pathways.
-- Provide pathways for students to progress toward specialized roles such as Data Scientist, Data Engineer, and Data Architect.
-
-## Files Included
-
-- Power BI dashboard (.pbix)
-- Dashboard preview
-Interested in Data Analytics, Business Intelligence, and Data Visualization.
+- `Data_Careers_Survey.pbix` — Power BI dashboard
+- Dashboard screenshots — included for quick preview
