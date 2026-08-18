@@ -1,76 +1,164 @@
-# Data Careers Survey
+# Data Careers Survey — University Career Insights
 
-An interactive Power BI dashboard analyzing survey data to understand the data-career landscape and evaluate the case for introducing a Data Analytics department at a university.
+An interactive Power BI project analyzing survey data to understand the data-career landscape, career expectations, required skills, and long-term opportunities, with the goal of evaluating the case for introducing a Data Analytics department at a university.
+
+---
 
 ## 📸 Project Preview
 
 ### Market Value
 
-![Market Value](screenshots/market-value.png)
+![Market Value](./Market_value.png)
 
 ### Future Outcome
 
-![Future Outcome](screenshots/future-outcome.png)
+![Future Outcome](./Future_outcomes.png)
 
 ### Skills & Opportunities
 
-![Skills & Opportunities](screenshots/skills-opportunities.png)
+![Skills & Opportunities](./Skills_and_opportunities.png)
 
 ### Growth & Stability
 
-![Growth & Stability](screenshots/growth-stability.png)
+![Growth & Stability](./Growth_and_stability.png)
 
 ### Insights
 
-![Insights](screenshots/insights.png)
+![Insights](./Insights.png)
+
+---
+
 ## 🎯 Project Objective
 
-A university conducted a survey to understand career opportunities, skills, and expectations within the data field.
+A university conducted a survey to understand career opportunities, skills, expectations, and preferences within the data field.
 
-The objective of this project was to turn those survey responses into meaningful insights that could help the university understand the career pathways, skills, accessibility, and opportunities associated with data careers.
+The objective of this project was to transform the survey responses into meaningful insights that could help evaluate the potential value of introducing a Data Analytics department.
 
-The analysis looks beyond salary alone and considers accessibility, skills, career growth, satisfaction, and work-life balance.
+The analysis focuses on:
 
-## 🔎 Business Questions
+- Understanding the current data-career landscape
+- Identifying common data roles and industries
+- Comparing salary potential across roles and industries
+- Understanding career accessibility for career switchers
+- Identifying important programming and technical skills
+- Evaluating career growth, satisfaction, and work-life balance
+- Providing recommendations for students, career switchers, and the university
 
-- What does the current data-career landscape look like?
-- Which roles offer stronger salary potential?
-- Which skills are most relevant across roles and industries?
-- How accessible is the data field, particularly for career switchers?
-- Which roles offer stronger growth, satisfaction, and work-life balance?
-- What should students consider when choosing a data-career pathway?
+---
 
-## 🔄 Methodology & Process
+## 📊 Key Questions
 
-- **Data Cleaning:** Cleaned survey responses, handled inconsistent entries, and standardized categories such as roles, occupations, countries, and salary values.
-- **Data Transformation:** Used Power Query to transform and structure the survey data for analysis.
-- **Analysis:** Compared career roles, salaries, skills, industries, accessibility, satisfaction, growth, and work-life balance.
-- **Dashboard Development:** Built an interactive Power BI dashboard using DAX measures, visualizations, and bookmarks to present the analysis through five analytical perspectives.
+The analysis answers questions such as:
 
-## 💡 Key Insights
+- Which roles dominate the data workforce?
+- Which roles command the highest salaries?
+- How accessible is the data field for career switchers?
+- What education level is most common among professionals?
+- Which programming languages are most widely used?
+- Which industries offer strong salary potential?
+- Which roles provide better work-life balance?
+- Which roles show stronger career growth potential?
+- What factors do professionals value most in their careers?
 
-- **Data Analyst** emerges as a practical entry point into the data field, particularly for individuals beginning their careers.
-- **Data Scientist** shows the strongest salary potential among the surveyed roles, highlighting the value of deeper technical specialization.
-- **Python** is the most prominent programming language among the surveyed workforce.
-- A significant proportion of respondents are **career switchers**, highlighting the importance of accessible pathways into the data field.
-- **Career quality varies across roles**, showing that salary alone does not define a strong career outcome.
+---
 
-## 📌 Recommendations
+## 🧹 Data Cleaning & Transformation
 
-- Build strong foundations in **SQL, Python, data visualization, and analytical thinking**.
-- Provide accessible learning pathways for students and career switchers entering the data field.
-- Expose students to multiple data roles before encouraging specialization.
-- Combine technical training with practical projects and career-readiness skills.
-- Evaluate career options using **salary, accessibility, growth, satisfaction, and work-life balance** together rather than salary alone.
+The survey data required several cleaning and transformation steps before analysis.
+
+Key steps included:
+
+- Handling missing and inconsistent values
+- Cleaning categorical responses
+- Standardizing role and industry categories
+- Combining survey-provided and manually entered country information
+- Grouping less frequent countries and industries into **Other**
+- Splitting salary-related responses to calculate average salary
+- Creating calculated fields and measures for analysis
+- Preparing data for interactive filtering and visualization
+
+---
 
 ## 🛠️ Tools Used
 
-- **Power BI** — Dashboard development and visualization
+- **Power BI** — Data analysis, visualization, and interactive reporting
 - **Power Query** — Data cleaning and transformation
 - **DAX** — Measures and calculated metrics
-- **Data Visualization** — Interactive dashboard and storytelling
+- **Data Visualization** — Interactive storytelling and insight presentation
 
-## 📁 Project Files
+---
 
-- [Data_Careers_Survey.pbix](Data_Careers_Survey.pbix) — Interactive Power BI report
-- [Screenshots](screenshots/) — Project preview images
+## 📈 Key Insights
+
+### 1. Data Analyst as an Accessible Entry Point
+
+Data Analyst stands out as a practical entry-level pathway due to its strong representation within the surveyed workforce and relatively accessible career path.
+
+### 2. Data Scientist Shows Strong Salary Potential
+
+Data Scientist records the highest average salary among the surveyed roles, highlighting the potential value of deeper technical specialization.
+
+### 3. Technical Skills Support Career Mobility
+
+Programming and analytical skills, particularly Python, appear across multiple roles and industries, making them transferable skills within the data field.
+
+### 4. Salary Isn't Everything
+
+Career quality varies across roles. Salary should be considered alongside work-life balance, satisfaction, accessibility, growth, and stability.
+
+---
+
+## 💡 Recommendations
+
+### For Freshers
+
+- Build strong foundational skills in SQL, Python, data visualization, and analytics.
+- Consider accessible entry-level roles such as Data Analyst.
+- Gain practical experience through projects and real-world datasets.
+- Explore different data roles before specializing.
+
+### For Career Switchers
+
+- Leverage existing domain knowledge when entering the data field.
+- Develop transferable technical and analytical skills.
+- Focus on SQL, Python, visualization, and problem-solving.
+- Build practical projects to demonstrate job readiness.
+
+### For Long-Term Growth
+
+Use entry-level experience as a pathway toward specialized roles such as:
+
+- Data Scientist
+- Data Engineer
+- Data Architect
+
+### For the University
+
+A potential Data Analytics program should combine:
+
+- Technical training
+- Practical projects
+- Data visualization
+- Analytical problem-solving
+- Career-readiness skills
+- Exposure to multiple data-career pathways
+
+---
+
+## 📁 Files
+
+- [Data_Careers_Survey.pbix](./Data_Careers_Survey.pbix) — Power BI project file
+- [Market_value.png](./Market_value.png) — Market Value screenshot
+- [Future_outcomes.png](./Future_outcomes.png) — Future Outcome screenshot
+- [Skills_and_opportunities.png](./Skills_and_opportunities.png) — Skills & Opportunities screenshot
+- [Growth_and_stability.png](./Growth_and_stability.png) — Growth & Stability screenshot
+- [Insights.png](./Insights.png) — Insights screenshot
+
+---
+
+## 🚀 Project Outcome
+
+This project demonstrates how survey data can be transformed into structured career insights using data cleaning, transformation, analysis, visualization, and business-oriented storytelling.
+
+
+
