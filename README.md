@@ -7,7 +7,7 @@ An interactive Power BI project analyzing survey data on the data-career landsca
 ## 📸 Project Preview
 
 ### Market Value
-![Market Value](./Market_value.png)
+(./Market_value.png)
 
 ### Future Outcome
 ![Future Outcome](./Future_outcomes.png)
